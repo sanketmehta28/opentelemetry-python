@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664457734632,
+  "lastUpdate": 1664457813074,
   "repoUrl": "https://github.com/sanketmehta28/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -76956,6 +76956,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000035606744234917125",
             "extra": "mean: 1.0308412527188358 usec\nrounds: 117648"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ocelotl@users.noreply.github.com",
+            "name": "Diego Hurtado",
+            "username": "ocelotl"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd4ccab1841347102b412bdc209a74133b766cea",
+          "message": "Update default explicit bucket histogram boundaries (#2952)",
+          "timestamp": "2022-09-28T12:57:42Z",
+          "tree_id": "079e50f30f8e622b7d9961d6bd7892998d37cba4",
+          "url": "https://github.com/sanketmehta28/opentelemetry-python/commit/cd4ccab1841347102b412bdc209a74133b766cea"
+        },
+        "date": 1664457786100,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_extract_single_header",
+            "value": 629676.571452874,
+            "unit": "iter/sec",
+            "range": "stddev: 4.012327070914102e-7",
+            "extra": "mean: 1.588116892602097 usec\nrounds: 67568"
+          },
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_inject_empty_context",
+            "value": 1161235.4353828044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001621667557732083",
+            "extra": "mean: 861.1518125696933 nsec\nrounds: 125016"
           }
         ]
       }

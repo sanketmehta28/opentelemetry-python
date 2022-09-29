@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664457368992,
+  "lastUpdate": 1664457420546,
   "repoUrl": "https://github.com/sanketmehta28/opentelemetry-python",
   "entries": {
     "OpenTelemetry Python Benchmarks - Python 3.8 - core": [
@@ -41676,44 +41676,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "eunice98k@gmail.com",
-            "name": "Eunice Kim",
-            "username": "eunice98k"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "540b8a5ed0fd79e77eced30eb514605bec97fe87",
-          "message": "Implement CreateKey Functionality (#1853)",
-          "timestamp": "2021-06-11T09:49:59-07:00",
-          "tree_id": "12641dfd7b389d0810154b2500017f90c1f6df2a",
-          "url": "https://github.com/open-telemetry/opentelemetry-python/commit/540b8a5ed0fd79e77eced30eb514605bec97fe87"
-        },
-        "date": 1623430248068,
-        "tool": "pytest",
-        "benches": [
-          {
-            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_extract_single_header",
-            "value": 96210.26609403598,
-            "unit": "iter/sec",
-            "range": "stddev: 4.966155306760644e-7",
-            "extra": "mean: 10.393901197847217 usec\nrounds: 13441"
-          },
-          {
-            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_inject_empty_context",
-            "value": 158147.52330408173,
-            "unit": "iter/sec",
-            "range": "stddev: 3.414924050237236e-7",
-            "extra": "mean: 6.323209994741602 usec\nrounds: 55249"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "srikanth.chekuri92@gmail.com",
             "name": "Srikanth Chekuri",
             "username": "lonewolf3739"
@@ -45470,6 +45432,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.9752599270549603e-7",
             "extra": "mean: 5.308738441085467 usec\nrounds: 66226"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ocelotl@users.noreply.github.com",
+            "name": "Diego Hurtado",
+            "username": "ocelotl"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd4ccab1841347102b412bdc209a74133b766cea",
+          "message": "Update default explicit bucket histogram boundaries (#2952)",
+          "timestamp": "2022-09-28T12:57:42Z",
+          "tree_id": "079e50f30f8e622b7d9961d6bd7892998d37cba4",
+          "url": "https://github.com/sanketmehta28/opentelemetry-python/commit/cd4ccab1841347102b412bdc209a74133b766cea"
+        },
+        "date": 1664457394119,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_extract_single_header",
+            "value": 96454.98998877499,
+            "unit": "iter/sec",
+            "range": "stddev: 3.9765798672496573e-7",
+            "extra": "mean: 10.367529975550001 usec\nrounds: 15129"
+          },
+          {
+            "name": "propagator/opentelemetry-propagator-b3/tests/performance/benchmarks/trace/propagation/test_benchmark_b3_format.py::test_inject_empty_context",
+            "value": 186368.467937474,
+            "unit": "iter/sec",
+            "range": "stddev: 2.765327216982972e-7",
+            "extra": "mean: 5.365714549606626 usec\nrounds: 67115"
           }
         ]
       }
